@@ -36,12 +36,12 @@ h3{
 }
 /*utilities */
 .container{
-    weight: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 80rem;
+    width: 100%;
+    box-sizing: border-box;
 }
 .container > *{
     width: 100%;
